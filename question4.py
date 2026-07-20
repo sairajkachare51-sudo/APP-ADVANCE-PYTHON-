@@ -1,5 +1,16 @@
-#Write a program to swap two numbers.
-a=1
-b=2
-a, b=b, a
-print("The value of a:", a,"The value of b:", b)
+#Write a program to check whether a character is a vowel or consonant.
+Letter=str(input("Enter a Letter:"))
+if(Letter=="A"):
+    print("Letter is Vowel")
+elif(Letter=="E"):
+    print("Letter is Vowel")
+elif(Letter=="I"):
+    print("Letter is Vowel")
+elif(Letter=="O"):
+    print("Letter is Vowel")
+elif(Letter=="U"):
+    print("Letter is Vowel")
+else:
+    print("Letter is consonant")
+
+
